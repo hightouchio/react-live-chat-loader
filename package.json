@@ -13,7 +13,8 @@
     "build:module": "BABEL_ENV=module babel src --out-dir module --extensions \".ts,.tsx\" --source-maps inline",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "dev": "tsc --noEmit --watch"
+    "dev": "tsc --noEmit --watch",
+    "prepare": "npm run build"
   },
   "prettier": {
     "semi": false,
